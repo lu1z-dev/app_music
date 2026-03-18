@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QHB
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtCore import Qt
 
-        # Funções de busca da API
+        # Funções de busca da API Rest
 def buscar_artista():
     dado_busca = busca.text()
     if dado_busca == "": # Tratativa para campo vazio
